@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main()// ex 151 = on their sum the return should be 151
 {
     int input, a, sum = 0, value;
     printf("Enter any number");
