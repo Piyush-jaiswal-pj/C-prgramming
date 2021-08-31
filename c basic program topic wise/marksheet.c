@@ -22,12 +22,12 @@ int main()
         percentage = (float)totalmarks / 500 * 100; //we need to type caste here  so we used float
         printf("Total marks obtained out of 500 marks =%d", totalmarks);
         printf("Percentage obtained = %.2f%%", percentage);
-        printf("Pass")
+        printf("Pass");
     }
     else
     {
         printf("Enter marks under 500 or student is fail");
     }
-}
+
 return 0;
 }
