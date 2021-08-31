@@ -40,5 +40,5 @@ int main()
     {
          printf("The given number is not a armstrong number");
     }*/
->>>>>>> 5c877f6 (all pgrams)
+
 }
