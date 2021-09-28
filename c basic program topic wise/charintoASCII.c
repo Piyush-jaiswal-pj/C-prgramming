@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int main()
 {
@@ -8,5 +7,4 @@ int main()
     printf("The ASCII of entered character is : ");
     printf("%d",input);
     return 0;
-
 }

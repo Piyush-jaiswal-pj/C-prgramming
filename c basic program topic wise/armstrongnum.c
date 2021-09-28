@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 int main()
 {
@@ -40,5 +39,4 @@ int main()
     {
          printf("The given number is not a armstrong number");
     }*/
-
 }

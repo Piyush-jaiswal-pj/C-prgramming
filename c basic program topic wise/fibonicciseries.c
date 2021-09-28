@@ -1,13 +1,17 @@
 #include <stdio.h>
-int main()
+#include <conio.h>
+void main()
 {
-    int i,sum=0,input;
-    scanf("%d",&input);
-    for(i=0;i<=input;i++)
+    int input, i, c, a = 0, b = 1;
+    printf("Enter any number for fibbonicci series \n");
+    scanf("%d", &input);
+    printf(" %d %d ", a, b);
+    for (i = 2; i < input; i++)
     {
-        
-        printf("%d",sum);
+        c = a + b;
+        printf(" %d ", c);
+        a = b;
+        b = c;
     }
-    
-    return 0;
+    getch();
 }

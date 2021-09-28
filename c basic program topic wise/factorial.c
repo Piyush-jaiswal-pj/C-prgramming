@@ -8,6 +8,6 @@ int main()
     {
         fac=fac*i;
     }
-printf("The factorial of a given no. is = %d ",fac);
+printf("The factorial of %d is = %d",input,fac);
 return 0;
     }

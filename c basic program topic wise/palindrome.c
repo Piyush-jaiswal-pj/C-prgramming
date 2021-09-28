@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main()// ex 151 = on their sum the return should be 151
+int main()
 {
     int input, a, sum = 0, value;
-    printf("Enter any number");
+    printf("Enter any number");// A Palindrome no. is the number that remains the same when its digits get reversed.
     scanf("%d", &input);
     value = input;
     while (input != 0)
