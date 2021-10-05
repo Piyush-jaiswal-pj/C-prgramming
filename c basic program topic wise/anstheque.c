@@ -10,7 +10,7 @@ int main()
     {
         printf("Good Right Answer");
     }
-    else{
-        printf("Try Again");
+    else{ 
+         printf("Try Again");
     }
 }
